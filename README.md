@@ -8,12 +8,12 @@ We have two 3D frames of the same horse in motion (look at the legs):
 <img src="https://raw.githubusercontent.com/paghdv/FreeFormMotionProcessing/master/samples/horse1.png" alt="horse1" style="width: 250px;"/><img src="https://raw.githubusercontent.com/paghdv/FreeFormMotionProcessing/master/samples/horse2.png" alt="horse2" style="width: 250px;"/>
 
 <br/>
-If we simple interpolate these two frames using cartesian coordinates we obtain:
+If we simply interpolate these two frames using cartesian coordinates we obtain:
 
 <img src="https://raw.githubusercontent.com/paghdv/FreeFormMotionProcessing/master/samples/simple_cartesian.png" alt="cartesian" style="width: 500px;"/>
 <br/>
 
-There is a clear problem of a loos of volume in the legs, plus the motion itself being lost in the interpolation. Instead, if we use the mesh representation and interpolation proposed in "Free Form Motion Processing" we obtain:
+There is a clear problem of a loss of volume in the legs, plus, the motion itself being lost in the interpolation. Instead, if we use the mesh representation and interpolation proposed in "Free Form Motion Processing" we can obtain:
 
 <img src="https://raw.githubusercontent.com/paghdv/FreeFormMotionProcessing/master/samples/ffmp.png" alt="cartesian" style="width: 500px;"/>
 
